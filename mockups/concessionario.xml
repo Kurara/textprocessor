@@ -1,0 +1,8 @@
+<concessionaria>
+<macchina nome="ABARTH">
+    <modello>124 Spider</modello>
+    <acquisizione>20/05/17</acquisizione>
+    <prezzi compra="23000" vendita="" ></prezzi>
+    <benefici>200</benefici>
+</macchina>
+</concessionaria>
