@@ -8,18 +8,17 @@ class TestProcessor(unittest.TestCase):
         import os
         self.BASE_PATH = os.path.dirname(os.path.abspath(__file__))
 
-    def un_test_csv_read(self):
+    def test_csv_read(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
         processor = TextProcessor()
         processor.read_csv(filepath)
 
-    def un_test_csv_writter(self):
+    def test_csv_writter(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
         processor = TextProcessor()
         processor.read_csv(filepath)
 
-        filepath2 = self.BASE_PATH + "/mockups/concessionario.csv"
-        processor.write_csv(filepath2)
+        processor.write_csv(filepath)
 
     def test_json_reader(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.json"

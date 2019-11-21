@@ -15,8 +15,17 @@ class TextProcessor:
 
 
     def write_csv(self, file):
+        header = [
+            "macchina",
+            "modello",
+            "acquisizione",
+            "prezzo compra",
+            "prezzo vendita",
+            "beneficio"
+        ]
         with open(file, 'w') as csvfile:
-            writer = csv.DictWriter(csvfile)
+            writer = csv.DictWriter(csvfile, fieldnames=header)
+            writer.writeheader()
             for row in self.list_rows:
                 writer.writerow(row)
             # writer.writerows(self.list_rows)
