@@ -1,8 +1,0 @@
-# File di esempio di Yml 
----
-- machina: ABARTH
-  modello: 124 Spider
-  acquisizione: 20/05/17
-  prezzo: 23000
-  prezzo vendita: 
-  beneficio: 200

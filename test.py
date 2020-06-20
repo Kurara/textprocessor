@@ -1,6 +1,6 @@
 import unittest
 import os
-from result import TextProcessor
+from main import TextProcessor
 
 
 class TestProcessor(unittest.TestCase):
@@ -49,38 +49,10 @@ class TestProcessor(unittest.TestCase):
 
         self.assertTrue(os.path.exists(filepath))
 
-    def test_yalm_reader(self):
-        filepath = self.BASE_PATH + "/mockups/concessionario.yml"
-        processor = TextProcessor()
-        processor.read_yaml(filepath)
-
-    def test_yalm_writer(self):
-        self.filepath = self.BASE_PATH + "/mockups/nuovo_yaml.yml"
-        processor = TextProcessor()
-        to_parse = {
-            "nome": "Silvia",
-            "cognome": "Rossi",
-            "admin": False,
-            "mascote": 5,
-            "figli": {
-                "femmine": ["Clara", "Francesca"],
-                "maschi": []
-            } 
-        }
-        processor.write_yaml(self.filepath, to_parse)
-
-        self.assertTrue(os.path.exists(filepath))
-
     def test_read_xml(self):
-        filepath = self.BASE_PATH + "/mockups/concessionario.xml"
+        filepath = self.BASE_PATH + "/mockups/rai_feeds.xml"
         processor = TextProcessor()
         processor.read_xml(filepath)
-
-        processor.modify_xml(filepath)
-
-    def tearDown(self):
-        if os.path.exists(self.filepath) and not self.maintain_files:
-            os.unlink(self.filepath)
 
     def test_create_xml_by_csv(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
@@ -91,3 +63,14 @@ class TestProcessor(unittest.TestCase):
         processor.write_xml(self.filepath, processor.list_rows)
 
         processor.pretty_print(self.filepath)
+
+    def test_big_data(self):
+        """ Test con alcuni dati pressi da https://www.kaggle.com/
+
+        """
+        # TODO
+
+    def tearDown(self):
+        if os.path.exists(self.filepath) and not self.maintain_files:
+            os.unlink(self.filepath)
+
