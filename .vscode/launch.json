@@ -10,7 +10,8 @@
             "request": "launch",
             "args": [
                 "-m",
-                "unittest"
+                "unittest",
+                "test.TestProcessor.test_big_data"
             ],
             "console": "integratedTerminal"
         }

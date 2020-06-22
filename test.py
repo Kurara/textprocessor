@@ -17,6 +17,7 @@ class TestProcessor(unittest.TestCase):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
         processor = TextProcessor()
         processor.read_csv(filepath)
+        print(processor.list_rows)
 
     def test_csv_writter(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
@@ -30,13 +31,14 @@ class TestProcessor(unittest.TestCase):
     def test_json_reader(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.json"
         processor = TextProcessor()
-        processor.read_json(filepath)
+        json_dict = processor.read_json(filepath)
+        self.assertIsNone(json_dict)
 
     def test_json_writer(self):
         self.filepath = self.BASE_PATH + "/mockups/nuovo_json.json"
         processor = TextProcessor()
         to_parse = {
-            "nome": "Silvia",
+            'nome': 'Silvia',
             "cognome": "Rossi",
             "admin": False,
             "mascote": 5,
@@ -47,12 +49,40 @@ class TestProcessor(unittest.TestCase):
         }
         processor.write_json(self.filepath, to_parse)
 
-        self.assertTrue(os.path.exists(filepath))
+        self.assertTrue(os.path.exists(self.filepath))
 
-    def test_read_xml(self):
+    def test_json_datetime(self):
+        import datetime
+
+        self.filepath = self.BASE_PATH + "/mockups/nuovo_json.json"
+        processor = TextProcessor()
+        today = datetime.datetime.now()
+        to_parse = {
+            'nome': 'Silvia',
+            "cognome": "Rossi",
+            "admin": False,
+            "mascote": 5,
+            "figli": {
+                "femmine": ["Clara", "Francesca"],
+                "maschi": []
+            },
+            "creato": today
+        }
+        processor.write_json(self.filepath, to_parse)
+
+        self.assertTrue(os.path.exists(self.filepath))
+
+    def test_read_xml_categorie(self):
         filepath = self.BASE_PATH + "/mockups/rai_feeds.xml"
         processor = TextProcessor()
-        processor.read_xml(filepath)
+        categorie = processor.read_xml_categorie(filepath)
+        print(categorie)
+
+    def test_read_xml_urls(self):
+        filepath = self.BASE_PATH + "/mockups/rai_feeds.xml"
+        processor = TextProcessor()
+        urls = processor.read_xml_urls(filepath)
+        print(urls)
 
     def test_create_xml_by_csv(self):
         filepath = self.BASE_PATH + "/mockups/concessionario.csv"
@@ -64,11 +94,22 @@ class TestProcessor(unittest.TestCase):
 
         processor.pretty_print(self.filepath)
 
+    def test_beautify_xml(self):
+        filepath = self.BASE_PATH + "/mockups/rai_feeds.xml"
+        processor = TextProcessor()
+        processor.pretty_print(filepath)
+
     def test_big_data(self):
         """ Test con alcuni dati pressi da https://www.kaggle.com/
 
         """
-        # TODO
+        filepath = self.BASE_PATH + "/mockups/complaints.csv"
+        processor = TextProcessor()
+        processor.read_csv(filepath)
+
+        print(
+            "Righe totali: {}".format(len(processor.list_rows))
+        )
 
     def tearDown(self):
         if os.path.exists(self.filepath) and not self.maintain_files:

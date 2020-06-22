@@ -14,7 +14,7 @@ class TextProcessor:
         with open(file, 'r') as csvfile:
             reader = csv.DictReader(csvfile, delimiter=',')
             for row in reader:
-                self.list_rows.append(row)
+                print(row)
 
     def write_csv(self, file):
         header = [
@@ -30,22 +30,60 @@ class TextProcessor:
             writer.writeheader()
             for row in self.list_rows:
                 writer.writerow(row)
+            writer.writerow({
+                "macchina": "aggiunta dopo",
+                "modello": "non so",
+                "acquisizione": "oggi",
+                "prezzo compra": "gratis",
+                "prezzo vendita": "10.000",
+                "beneficio": None
+            })
             # writer.writerows(self.list_rows)
             
     def read_json(self, file):
         with open(file, 'r') as jsonfile:
             dict_values = json.loads(jsonfile.read())
-        print(dict_values)
+        return dict_values
 
     def write_json(self, file, py_dict):
+        import datetime
+        today = py_dict.get('creato')
+        py_dict['creato'] = today.isoformat()
         json_str = json.dumps(py_dict, indent=3)
         with open(file, 'w') as jsonfile:
             jsonfile.write(json_str)
 
-    def read_xml(self, file):
+    def read_xml_categorie(self, file):
+        total_categories = []
+
         tree = ET.parse(file)
-        root = tree.getroot()
-        machine = root.getchildren()
+        rss_root = tree.getroot()
+        channel = rss_root.getchildren()[0]
+        items = channel.findall('item')
+
+        for item in items:
+            cat_element = item.find('category')
+            category = cat_element.text
+            if category not in total_categories:
+                total_categories.append(category)
+
+        return total_categories
+        
+    def read_xml_urls(self, file):
+        total_urls = []
+
+        tree = ET.parse(file)
+        rss_root = tree.getroot()
+        channel = rss_root.getchildren()[0]
+        items = channel.findall('item')
+
+        for item in items:
+            enclosure = item.find('enclosure')
+            url = enclosure.get('url')
+            if url not in total_urls:
+                total_urls.append(url)
+
+        return total_urls
 
     def write_xml(self, file, py_dict):
         """ Scrive i dati di una lista di dict in un file xml
@@ -61,11 +99,11 @@ class TextProcessor:
         for item in py_dict:
             doc = ET.SubElement(root, "elemento")
             for key, value in item.items():
-                if "prezzo" in key:
-                    _prezzi[key.replace("prezzo ", '')] = value
-                else:
-                    ET.SubElement(doc, key).text = value
-            ET.SubElement(doc, "prezzi", compra=_prezzi.get('compra'), vendita=_prezzi.get('vendita'))
+                # if "prezzo" in key:
+                #     _prezzi[key.replace("prezzo ", '')] = value
+                # else:
+                ET.SubElement(doc, key.replace(' ', '_')).text = value
+            # ET.SubElement(doc, "prezzi", compra=_prezzi.get('compra'), vendita=_prezzi.get('vendita'))
 
         tree = ET.ElementTree(root)
         tree.write(file)

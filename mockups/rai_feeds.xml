@@ -1,1 +1,758 @@
-# Prendere i dati da: http://www.rai.it/dl/portale/feedRss.html
+<?xml version="1.0" ?>
+<rss version="2.0" xmlns:java="http://xml.apache.org/xalan/java">
+	 Questo è un testo
+	<channel>
+		
+		<title>Rai.it &gt; Sport</title>
+		
+		<link>http://www.rai.it</link>
+		
+		<description>
+Feed delle notizie sportive a cura della redazione di RaiSport
+</description>
+		
+		<copyright>Copyright 2009 - RAI</copyright>
+		
+		<language>it-IT</language>
+		
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		<image>
+			
+			<url>
+http://www.rai.it/dl/RaiSport/images/logo_raisport.gif
+</url>
+			
+			<link>http://www.rai.it</link>
+			
+			<title>Rai.it</title>
+			
+			<height>66</height>
+			
+			<width>182</width>
+			
+		</image>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Udinese eliminata</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-bbefe69d-87ea-4205-9dd2-fff48ff1f8bd.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239918676091udinese_eliminata.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Gara generosa dei friulani (3-3), ma i tedeschi del Werder Brema vanno in semifinale <br/>(16 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>16 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category></category>
+			
+			<title>Le inglesi padrone della Champions</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-e17e1e0c-d18c-4a25-bd15-2a88e0d352a7.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239901105322CristianoRonaldo_336.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Chelsea, Manchester e Arsenal approdano in semifinale <br/>
+]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Juve-Inter, odio a prima vista</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-54dcdb48-2bba-4440-87c1-72ad98556d05.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239901399997ranieri336.jpg"/>
+			
+			<description>
+				
+<![CDATA[ La sfida a distanza tra Mourinho e Ranieri <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Lega, commissariamento vicino</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-995f4346-3bce-4fce-8555-70c2e811a70f.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239902066838galliani336.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Fallito l&#39;incontro a Milano. Rimangono le distanze tra serie A e B <br/>
+]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Sì ai diffusori, stravolte le strategie</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-b45d8c95-aa3c-4db9-b75f-95d69f1df55f.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239902360278Button336.jpg"/>
+			
+			<description>
+				
+<![CDATA[ Briatore spara zero, la Bmw mastica amaro <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>La Ferrari lavora sodo</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-cd5ade93-0c3b-4a1f-9729-feb65c9d6788.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239902685479Ferrari336.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Senza Kers a Shangai pensa al Gp di Spagna dove presenter&#225; decisive soluzioni <br/>
+]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Elezioni Coni, sfida a tre</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiTV/programmi/media/ContentItem-9e188be3-1b21-4f75-b74f-5ceaf91d27b1.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231239905317695Petrucciconi336.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Insieme a Petrucci scendono in campo Franco Chimenti e Paolo Barelli <br/>
+]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Replay</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-a5372c73-4bd0-4ccd-a8c7-07493bd77d8d&amp;channel=Diretta+RaiTRe
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231236179202387replay.jpg"/>
+			
+			<description>
+				
+<![CDATA[ ::.. la diretta <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Dribbling</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-0c69467b-4d39-43ec-a308-40ae4c37efa6&amp;channel=RaiDue+Diretta
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231236252666903dribbling.jpg"/>
+			
+			<description>
+				
+<![CDATA[ In onda il sabato alle 13.25 su RaiDue <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Stadio Sprint</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-0c69467b-4d39-43ec-a308-40ae4c37efa6&amp;channel=RaiDue+Diretta
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231236253340633stadiosprint.jpg"/>
+			
+			<description>
+				
+<![CDATA[ ::.. la diretta <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>90° Minuto A</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-0c69467b-4d39-43ec-a308-40ae4c37efa6&amp;channel=RaiDue+Diretta
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x123123625297020290minuto.jpg"/>
+			
+			<description>
+				
+<![CDATA[ ::.. la diretta <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>90° Minuto B</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-0c69467b-4d39-43ec-a308-40ae4c37efa6&amp;channel=RaiDue+Diretta
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x123123625297020290minuto.jpg"/>
+			
+			<description>
+				
+<![CDATA[ In onda il sabato alle 18.10 su RaiTre <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Domenica Sportiva</title>
+			
+			<link>
+http://www.rai.tv/dl/RaiTV/diretta.html?cid=ContentSet-0c69467b-4d39-43ec-a308-40ae4c37efa6&amp;channel=RaiDue+Diretta
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/0x1231236260519580ds.jpg"/>
+			
+			<description>
+				
+<![CDATA[ In onda la domenica alle 22.35 su RaiDue <br/> ]]>				
+			</description>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Mutu: rientro, visita tra 15 giorni</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-7bcc7e61-49b1-4dc6-8b16-ce9ba0811402.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image3c7f7964139ad8994fe86c3bb6f2c250.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+L&#39;attaccante rumeno potrebbe tornare in campo il 17 maggio <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Il Milan sulle tracce di Mandanda</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-e1e6f869-efad-44f4-a423-81b045ae840a.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image66220b664cd22a50f5bba5782ef369cd.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Secondo France Football, rossoneri vogliono portiere Marsiglia <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Nuoto</category>
+			
+			<title>Nuoto / Nuoto: 50 m rana donne,nuovo record</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-1729ae71-0570-43ff-a8da-246665fc4ccc.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_image5e5d7458fb6c7d88f7c9008e4248f8c4.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Primato mondiale alla russa Efimova, che ha nuotato in 30&#39;&#39;23 <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Serie B, stop di un turno a 16</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-2830be52-1f73-4d7c-aad9-4439c34e4ff7.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_imageca4ee896c8564b0e1eddcdec15bd1fa2.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Tra questi, i fratelli Lucarelli del Parma <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Serie A: un turno di stop a Zenga</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-f4b4f296-3a1d-4a23-95ac-e564b62954d8.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_image9a7d0259d1af937cf7187ed54ff20497.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Tra i giocatori, squalificato per due giornate Langella <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Lega Pro: respinto reclamo Ternana</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-b733f497-e24c-4425-9c12-41e9b685f42d.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image3fc56532197dca849e653efeb4d47fd0.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Ricorso per presunte irregolarita&#39; in gara contro Pistoiese <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Tennis</category>
+			
+			<title>Tennis / Open Bnl, nuova sospensione</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-bcdde66b-f07a-4df3-b340-fcfa0ca3c57f.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image4584914814d283ce05f4f6786e35f77b.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Fermato Bolelli, unico match concluso va al russo Youzhny <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Vela</category>
+			
+			<title>Vela / Vela, Oracle in causa con Alinghi</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-482f4bc8-6dbd-4beb-9f30-82d89dac55db.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image0a902c810ca58c774f242742822a8e9f.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Dopo sentenza favorevole, nodo e&#39; mese della prossima sfida <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Balottelli:Figc,Juve a porte chiuse</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-1b4599d3-b282-42db-a1ad-11963c03f0b1.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_image926f2e76097afb70b8c3bdeb36eb09cb.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Non accolto ricorso provvedimento dopo cori razzisti a Balotelli <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Milan-Juve:rischi,limiti biglietti</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-57420140-ae05-4815-8d7d-466b81768649.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image8dfeb56be8d9e2340b4d7dbc64f6c50d.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Si vendono solo un biglietto a testa ed incedibile <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Michel nuovo tecnico del Getafe</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-d699472d-391b-428e-b1e4-96b61cf63c4e.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_imagea48a4dbb43ab856cdca23550f9941b9f.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Ex centrocampista del Real Madrid prende il posto di Munoz <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Ricordo Hitler ultra'Spartak, multe</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-c59e9354-496f-4985-ac77-d8fbebc3384b.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image114fe7c699c522d934fa20979022dc43.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Avevano esposto uno striscione contro il Rubin per la nascita <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Nuoto</category>
+			
+			<title>Nuoto / 50 dorso donne,a Zueva record mondo</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-8ada35e4-8fe6-431c-b93a-4d5a96fad454.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_image1b4a6e4d1db6e96eab1fdda9772eb521.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Migliorato di 19 centesimi durante campionati nazionali russi <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category/>
+			
+			<title>Internazionali Bnl,pioggia e rinvii</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-d02fa591-b873-4461-a15e-1b3191a35916.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_imagere227x0iX_20090427.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Oggi in programma 19 singolari maschili <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+<category>Calcio</category>
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Juve: John Elkann,la squadra vinca</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-f5834c09-5d8a-4bd8-859f-6dd895c08656.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image686413ec553fb30d2523aa6b78360af7.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Ai critici in assemblea Exor, la squadra l&#39;abbiamo da anni <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Basket</category>
+			
+			<title>Basket / Nba: L.A. Lakers in semifinale</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-98c31027-31b7-4da5-8a17-221fcb22b0bb.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_imageepa28x4gX_20090428.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Raggiungono i Cleveland in semifinale <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Hockey pista</category>
+			
+			<title>Hockey pista / Hockey:Ducks fermano avanzata Shark</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-52e9e7e3-6e8e-45b1-b0b2-ec2ae86b76e6.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_imagee437ca7f46bd66d21e3e8cd8fdd85dda.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Ora li aspettano i Detroit Wings. I Chicago battono il Calgary <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Juve,contestazione ultra' alla Exor</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-8b58733f-171c-4571-8fdf-04f83b2e5964.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image18a7aa9522346efabf5e48328716eb50.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+La finanziaria degli Agnelli che controlla la Juve <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Juve: Conte, competitiva con Inter</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-be113e55-0d3a-49ce-924e-05eb652449ed.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/0x123sport_focus_image4030088e070603894779cbb01d8e03d6.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Il tecnico del Bari tra i candidati alla sostituzione di Ranieri <br/>(28 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>28 aprile 2009</pubDate>
+			
+		</item>
+		
+		<item>
+			
+			<category>Calcio</category>
+			
+			<title>Calcio / Premier, Newcastle-Portsmouth 0-0</title>
+			
+			<link>
+http://www.raisport.rai.it/dl/RaiSport/ARTICOLO/ContentItem-30caceb3-b64a-4689-b54d-3b4ce7aeb338.html
+</link>
+			
+			<enclosure length="" type="image/jpeg" url="http://www.rai.it/dl/images/raisport/ansa/123x0sport_focus_imagecbe722b2294dc0050ffaad834c22d4d4.jpg"/>
+			
+			<description>
+				
+<![CDATA[
+Nel posticipo della 34/a giornata <br/>(27 aprile 2009)
+]]>				
+			</description>
+			
+			<pubDate>27 aprile 2009</pubDate>
+			
+		</item>
+		
+	</channel>
+	
+</rss>
