@@ -19,16 +19,17 @@ Per fate tests con big data scaricare:
 https://www.consumerfinance.gov/data-research/consumer-complaints/
 
 
-# Creazione del virtualenv:
+### Creazione del virtualenv:
 `virtualenv enviroments/primo_env -p python3.7`
-# Attiviato il virtualenv (importante il punto (o source)):
-`. enviroments/primo_env/bin/activate`
-`source enviroments/primo_env/bin/activate`
-# Verifica attivazione virtualenv:
+### Attiviato il virtualenv (importante il punto (o source)):
+*`. enviroments/primo_env/bin/activate`
+*`source enviroments/primo_env/bin/activate`
+
+### Verifica attivazione virtualenv:
 `python --version`
 
-# Progetto:
+### Progetto:
 `git clone https://github.com/Kurara/textprocessor.git`
 
-# Aprirlo in code:
+### Aprirlo in code:
 `code textprocessor`
